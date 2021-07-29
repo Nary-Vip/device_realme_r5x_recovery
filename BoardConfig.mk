@@ -14,7 +14,25 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/r5x
+SHRP_PATH := device/realme/r5x
+
+# Device codename
+SHRP_DEVICE_CODE := r5x
+
+# Maintainer
+SHRP_MAINTAINER := Naresh Kumar
+
+# Device Type
+SHRP_DEVICE_TYPE := A/B
+
+# Recovery Type
+SHRP_REC_TYPE := Normal
+
+#Notch
+SHRP_NOTCH := true
+
+#Enable Dark Mode
+SHRP_DARK := true
 
 # Architecture
 TARGET_ARCH := arm64
